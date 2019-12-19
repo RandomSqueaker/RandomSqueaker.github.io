@@ -40,8 +40,8 @@ function check(num1, num2, arr, tailcalc) {
       if (tailcalc == false) {
         return true;
       } else {
-        //making sure it starts on an even number
-        if (arr[i] / 2 == Math.floor(arr[i] / 2)) {
+        //making sure it starts on an even index
+        if (i / 2 == Math.floor(i / 2)) {
           return true;
         }
       }
