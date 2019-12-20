@@ -13,7 +13,6 @@ function kill() {
   location.reload();
 }
 document.addEventListener("keydown", function(event) {
-  pressed = 0;
   //down
   if (event.which == 40) {
     pressed = 1;
