@@ -96,9 +96,9 @@ b2.onclick = function(){click(1)};
 b3.onclick = function(){click(2)};
 function click(num){
 if(randrand == num){
-window.location.href = "incorrect.html";
-}else{
 window.location.href = "correct.html";
+}else{
+window.location.href = "incorrect.html";
 }
 }
 //some variables
