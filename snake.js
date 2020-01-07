@@ -1,8 +1,16 @@
-//licensed under CC-BY, created by francis porter 2019
+//licensed under CC-BY, created by Francis Porter 2019
 var pressed = 0;
 var canvas = document.getElementById('main');
 var scoreText = document.getElementById('score');
 var score = 0;
+//testing to make sure canvas and scoreText are defined,
+//in case someone fucks with the HTML
+if (document.getElementById('main') == undefined){
+document.reload();
+}
+if (document.getElementById('score') == undefined){
+document.reload();
+}
 //0 = blank
 //1 = down
 //2 = up
